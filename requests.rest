@@ -1,0 +1,51 @@
+POST http://localhost:5000/create
+Content-Type: application/json
+
+{
+    "firstname": "Amani",
+    "lastname": "Zyoud",
+    "email": "Amani@gmail.com",
+    "password": "Awbgce#1"
+}
+
+
+###
+
+GET http://localhost:5000/
+
+
+###
+POST http://localhost:5000/update
+Content-Type: application/json
+
+{
+    "id": "aKIWaXQi7akF5AD5W6WU",
+    "username": "esraa Zyoud"
+}
+
+
+###
+POST http://localhost:5000/delete
+Content-Type: application/json
+
+{
+    "id": "PxP3ifJLty9fQWVhu7TL"
+}
+
+###
+GET http://localhost:5000/LogIn
+Content-Type: application/json
+Authorization: Breaer eyhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdG5hbWUiOiJBbWFuaSIsImxhc3RuYW1lIjoiWnlvdWQiLCJlbWFpbCI6IkFtYW5pQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiQXdiZ2NlIzEiLCJpYXQiOjE2ODQ3Nzc1NDJ9.Tz4YovpxK1Ty_kk8GovHqidVGRejOezpoUWWd-sjHSE
+
+{
+    
+}
+
+###
+POST http://localhost:5000/Login
+Content-Type: application/json
+
+{
+    "email": "Amani@gmail.com",
+    "password": "123456"
+}

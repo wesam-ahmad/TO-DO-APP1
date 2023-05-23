@@ -1,0 +1,45 @@
+.bg-img-about {
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+    width: 100%;
+  }
+  .BriefAbout-text {
+    width: 80%;
+  }
+  .BriefAbout-text h2 {
+    color: #064080;
+  }
+  .about-img {
+      width: 50% ;
+  }
+  
+  .logInMore {
+    background-color: #1b74b9;
+    font-size: 1.1em;
+    font-weight: 800;
+    border: #064080 solid 2px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    fill: #064080;
+    color: #064080;
+    background-color: #ffffff;
+    border-radius: 40px 40px 40px 40px;
+  }
+  
+  .logInMore:hover {
+   
+    transform: scale(1.1);
+  }
+  @media (max-width: 991px) {
+    .pre-BriefAbout-text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
